@@ -3,9 +3,9 @@ import React from 'react'
 function Navbar() {
   return (
    <>
-   <nav className="navbar navbar-expand-lg navbar-dark bg-black">
+   <nav className="navbar navbar-expand-lg navbar-dark bg-black" >
   <div className="container">
-    <a className="navbar-brand text-light" href="#">BrandName</a>
+    <a className="navbar-brand text-light" href="#">CarbonCore</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
       <span className="navbar-toggler-icon"></span>
     </button>
