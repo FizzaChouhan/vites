@@ -8,6 +8,9 @@ import Card from "./components/Card.jsx"
 import Footer from "./components/Footer.jsx"
 import Feature from "./components/Feature.jsx"
 import ContactForm from "./components/ContactForm.jsx"
+//import Button from "./components/Button.jsx"
+import DogApi from "./components/DogApi.jsx"
+
 function App() {
   
 
@@ -15,8 +18,9 @@ function App() {
     <>
     <Navbar/> 
     <Hero/>
-    <Card/>
-    <Feature/>
+  
+   <DogApi/>
+    
     <ContactForm/>
     <Footer/>
     </>
